@@ -11,14 +11,11 @@ using namespace std;
 class Booking {
 private:
     int bookingID;
-    ShowTime* showtime;
-    Customer customer;
-
-
 public:
 };
 
 int main() {
 
 return 0;
+
 }
