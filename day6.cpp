@@ -20,8 +20,6 @@ public:
     Booking(int bid, int tCount = 0)
         : bookingID(bid), ticketCount(tCount), movieName("Avatar"), time("1:00 PM") {
         roomNumber = rand() % 10 + 1;
-        bookingID = rand() % 1000 + 1;
-
     }
 
     ~Booking() {
@@ -54,7 +52,7 @@ public:
 
 int main() {
 
-    Booking b1(1);
+    Booking b1(1021);
     b1.setTicketCount();
     b1.calculateBill();
     b1.showBookingInfo();
@@ -63,3 +61,4 @@ int main() {
 
     return 0;
 }
+
